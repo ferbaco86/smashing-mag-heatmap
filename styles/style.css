@@ -17,6 +17,10 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+/***** Main *****/
+.main {
+  display: flex;
+}
 .center-text {
   position: absolute;
   background-color: white;
@@ -61,7 +65,63 @@ nav {
 
 .articles-container {
   display: grid;
+  gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4,1fr);
+  grid-template-rows: 1fr 3fr 1fr;
+  background-color: lightgray;
+}
+
+.by {
+  padding-left: 30px;
+}
+
+.author-link {
+  padding-left: 5px;
+}
+
+.articles-container h2, h3, h4, p, a {
+  padding: 30px;
+}
+
+/* .articles-row {
+  display: grid;
+} */
+
+.promo {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  height:50vh;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.subscribe {
+  background-color: rgb(90, 90, 90);
+  color: white;
+  border-radius: 10px;
+}
+
+.subscribe button {
+  margin-left: 30px;
+}
+
+.smashing-tv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(90, 90, 90);
+  color: white;
+  border-radius: 10px;
+  margin-left: 2.5%;
+  width: 95%;
+  height: 80vh;
+  margin-top: 50px;
+}
+
+.more-articles {
+  display: flex;
+  justify-content: center;
 }
 
