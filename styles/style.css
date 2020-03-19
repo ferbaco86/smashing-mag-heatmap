@@ -1,0 +1,64 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/***** Header ****/
+.header {
+  display: grid;
+  align-items: center;
+  height: 20vh;
+  background-color: rgb(163, 158, 158);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+.center-text {
+  position: absolute;
+  background-color: white;
+  margin-left: 43%;
+  margin-top: 5%;
+  width: auto;
+}
+
+.center-text p {
+  text-align: center;
+}
+
+.dont-miss-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.latest-article {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+}
+
+.latest-article-title {
+  padding-left: 50px;
+  padding-right: 270px;
+}
+
+.latest-article-1 {
+  background-color:  rgb(131, 124, 124);
+}
+
+.latest-article-3 {
+  background-color: rgb(112, 106, 106) ;
+}
+
+.latest-article-2 {
+  background-color: rgb(155, 150, 150)
+}
+
+.latest-article-4 {
+  background-color:  rgb(138, 131, 131);
+}
+
