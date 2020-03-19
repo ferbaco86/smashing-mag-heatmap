@@ -20,13 +20,10 @@ nav {
 .center-text {
   position: absolute;
   background-color: white;
-  margin-left: 43%;
-  margin-top: 5%;
-  width: auto;
-}
-
-.center-text p {
+  left: 44%;
+  top: 25%;
   text-align: center;
+  padding: 10px;
 }
 
 .dont-miss-container {
@@ -60,5 +57,11 @@ nav {
 
 .latest-article-4 {
   background-color:  rgb(138, 131, 131);
+}
+
+.articles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4,1fr);
 }
 
