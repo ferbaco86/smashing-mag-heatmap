@@ -79,7 +79,10 @@ nav {
   padding-left: 5px;
 }
 
-.articles-container h2, h3, h4, p, a {
+.articles-container h2,
+.articles-container h3,
+.articles-container h4,
+.articles-container p {
   padding: 30px;
 }
 
@@ -133,7 +136,7 @@ nav {
   color: white;
 }
 
-.book-promo span, h2{ 
+.book-promo > span { 
   padding: 30px;
 }
 
@@ -142,5 +145,12 @@ nav {
   width: 800px;
   height: 500px;
   background-color:gray;
+  margin: 30px;
+}
+
+.photo-placeholder {
+  width: 20vw;
+  height: 30vh;
+  background-color: gray;
 }
 
