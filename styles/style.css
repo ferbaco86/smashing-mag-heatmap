@@ -131,6 +131,7 @@ nav a {
 
 .author-link {
   padding-left: 5px;
+  color: gray;
 }
 
 .articles-container h3 {
@@ -339,6 +340,7 @@ nav a {
   width: 35vw;
   margin-left: 150px;
   font-size: 1rem;
+  padding-bottom: 100px;
 }
 
 .community-links-article span,
@@ -360,6 +362,7 @@ nav a {
   background-color: rgb(90, 90, 90);
   position: relative;
   height: 50vh;
+  color: white;
 }
 
 .featured-book-info {
@@ -373,12 +376,19 @@ nav a {
 
 .featured-book-info h2 {
   margin: 10px 0 30px 0;
+  font-size: 3rem;
+  text-decoration: underline;
 }
 
 .featured-book-info p {
   margin-bottom: 20px;
 }
 
+.featured-book-btn {
+  width: 17vw;
+  height: 7vh;
+  border-radius: 10px;
+}
 
 .featured-book-pic-placeholder {
   position: absolute;
@@ -392,10 +402,39 @@ nav a {
 .curated-post-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: 1fr 2fr;
   gap: 60px;
   justify-items: left;
   background-color:lightgray;
+}
+
+.guide-container {
+  margin-left: 50px;
+}
+
+.guide-container-2 {
+  margin-left: 25px;
+}
+
+.curated-post-container div {
+  margin-top: 30px;
+}
+
+.guide-title {
+  padding: 10px 0 30px 0;
+  font-size: 1.7rem;
+}
+
+.curated-post-container ul {
+  margin-left: 50px;
+}
+
+.curated-post-container li {
+  padding: 5px;
+}
+
+.curated-post-container small {
+  font-family: "Merriweather", serif;
 }
 
 .newsletter-container {
@@ -404,11 +443,17 @@ nav a {
   align-items: center;
   justify-content: space-around;
   background-color: rgb(90, 90, 90);
+  color: white;
   width: 800px;
   height: 800px;
   grid-column: span 2;
   justify-self: start;
   border-radius: 10px;
+}
+
+.newsletter-title {
+  font-size: 3rem;
+  text-decoration: underline;
 }
 
 .newsletter-pic-placeholder {
@@ -418,11 +463,22 @@ nav a {
   background-color: gray;
 }
 
+.email {
+  width: 20vw;
+  height: 7vh;
+  border-radius: 10px;
+}
+
 .see-all-articles {
   display: flex;
   justify-self: center;
   grid-column: span 3;
-  margin: 150px 0 100px 0;
+  margin-bottom: 100px;
+  font-family: "Merriweather",serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-decoration: none;
+  color:grey;
 }
 
 .footer {
@@ -433,10 +489,20 @@ nav a {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  font-family: "Merriweather",serif;
+  color: white;
+}
+
+.footer-title {
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .topic-list {
   text-align: center;
+  line-height: 2rem;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 .topic-item
@@ -447,9 +513,18 @@ nav a {
 
 .credits {
   text-align: center;
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 .footer-links {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.footer-links-2 {
   margin-top: -80px;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
