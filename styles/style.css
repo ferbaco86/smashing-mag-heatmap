@@ -15,6 +15,30 @@
     url("//db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.svg#MijaW03-Regular") format("svg");
 }
 
+.flex-display {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.items-align-center {
+  align-items: center;
+}
+
+.grid-display {
+  display: grid;
+}
+
+.align-center-text {
+  text-align: center;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
 .font-mija {
   font-family: "MijaW03-Regular", sans-serif;
   font-weight: 700;
@@ -34,18 +58,18 @@
   color: grey;
 }
 
+.font-weight-300 {
+  font-weight: 300;
+}
+
 .header {
-  display: grid;
-  align-items: center;
   height: 20vh;
   background-color: rgb(163, 158, 158);
   font-size: 1.5rem;
 }
 
 nav {
-  display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 nav a {
@@ -60,7 +84,6 @@ nav a {
 }
 
 .topics-btn {
-  border-radius: 10px;
   border: 3px solid white;
   color: white;
   background-color: rgb(163, 158, 158);
@@ -69,29 +92,21 @@ nav a {
   font-size: 1.2rem;
 }
 
-.main {
-  display: flex;
-}
-
 .center-text {
   position: absolute;
   background-color: white;
   left: 32%;
   top: 25%;
-  text-align: center;
   padding: 10px;
   font-size: 2.5rem;
 }
 
 .dont-miss-container {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
 .latest-article {
-  display: flex;
-  align-items: center;
   height: 80vh;
   font-size: 1.8rem;
 }
@@ -119,10 +134,9 @@ nav a {
 }
 
 .articles-container {
-  display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   background-color: lightgray;
 }
 
@@ -131,7 +145,7 @@ nav a {
 }
 
 .final-articles {
-  margin-top: -180px;
+  margin-top: 40px;
 }
 
 .by {
@@ -163,21 +177,15 @@ nav a {
 .promo {
   background-color: white;
   border: 1px solid gray;
-  border-radius: 10px;
   height: 50vh;
   margin-top: 10px;
   margin-left: 30px;
 }
 
 .subscribe {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
-  text-align: center;
   background-color: rgb(90, 90, 90);
   color: white;
-  border-radius: 10px;
   height: 92vh;
   width: 33vw;
 }
@@ -193,19 +201,14 @@ nav a {
 }
 
 .subscribe button {
-  border-radius: 10px;
   width: 13vw;
   height: 7vh;
 }
 
 .smashing-tv {
-  display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
   background-color: rgb(90, 90, 90);
   color: white;
-  border-radius: 10px;
   margin-left: 2.5%;
   width: 95%;
   height: 80vh;
@@ -220,7 +223,6 @@ nav a {
 .tv-text {
   font-size: 1rem;
   width: 37vw;
-  text-align: center;
 }
 
 .tv-pic-container {
@@ -233,31 +235,23 @@ nav a {
 .tv-btn {
   width: 20vw;
   height: 7vh;
-  border-radius: 10px;
 }
 
 .more-articles {
-  display: flex;
   justify-content: center;
   margin: 100px;
   font-family: "Merriweather", serif;
   font-size: 0.9rem;
-  font-weight: 300;
   text-decoration: none;
   color: grey;
 }
 
 .shipping-date {
   font-family: 'Merriweather', serif;
-  font-weight: 300;
   font-size: 0.9rem;
 }
 
 .book-promo {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
   background-color: rgb(90, 90, 90);
   color: white;
@@ -275,7 +269,6 @@ nav a {
 
 .book-promo-text {
   width: 45vw;
-  font-weight: 300;
   font-size: 1.2rem;
 }
 
@@ -289,11 +282,9 @@ nav a {
 .book-promo-btn {
   width: 25vw;
   height: 8vh;
-  border-radius: 10px;
 }
 
 .person-of-the-week {
-  display: flex;
   justify-content: space-around;
 }
 
@@ -315,7 +306,6 @@ nav a {
 }
 
 .community-links-container {
-  display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -323,7 +313,6 @@ nav a {
 }
 
 .title-pic-container {
-  display: flex;
   justify-content: baseline;
 }
 
@@ -347,7 +336,7 @@ nav a {
 }
 
 .community-links-article span,
-.community-links-article h1 {
+.community-links-article h2 {
   margin-left: 25px;
 }
 
@@ -360,7 +349,6 @@ nav a {
 }
 
 .featured-book {
-  display: grid;
   grid-template-columns: 2fr 1fr;
   background-color: rgb(90, 90, 90);
   position: relative;
@@ -371,8 +359,6 @@ nav a {
 .featured-book-info {
   margin-top: 50px;
   margin-left: 50px;
-  display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -390,7 +376,6 @@ nav a {
 .featured-book-btn {
   width: 17vw;
   height: 7vh;
-  border-radius: 10px;
 }
 
 .featured-book-pic-placeholder {
@@ -403,7 +388,6 @@ nav a {
 }
 
 .curated-post-container {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 2fr;
   gap: 60px;
@@ -441,9 +425,6 @@ nav a {
 }
 
 .newsletter-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: space-around;
   background-color: rgb(90, 90, 90);
   color: white;
@@ -451,7 +432,6 @@ nav a {
   height: 800px;
   grid-column: span 2;
   justify-self: start;
-  border-radius: 10px;
 }
 
 .newsletter-title {
@@ -469,17 +449,14 @@ nav a {
 .email {
   width: 20vw;
   height: 7vh;
-  border-radius: 10px;
 }
 
 .see-all-articles {
-  display: flex;
   justify-self: center;
   grid-column: span 3;
   margin-bottom: 100px;
   font-family: "Merriweather", serif;
   font-size: 0.9rem;
-  font-weight: 300;
   text-decoration: none;
   color: grey;
 }
@@ -488,23 +465,17 @@ nav a {
   background-color: rgb(90, 90, 90);
   height: 85vh;
   width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
   font-family: "Merriweather", serif;
   color: white;
 }
 
 .footer-title {
-  font-weight: 300;
   text-transform: uppercase;
 }
 
 .topic-list {
-  text-align: center;
   line-height: 2rem;
-  font-weight: 300;
   font-size: 1.2rem;
 }
 
@@ -514,18 +485,14 @@ nav a {
 }
 
 .credits {
-  text-align: center;
-  font-weight: 300;
   font-size: 0.9rem;
 }
 
 .footer-links {
   font-size: 1rem;
-  font-weight: 300;
 }
 
 .footer-links-2 {
   margin-top: -80px;
   font-size: 1rem;
-  font-weight: 300;
 }

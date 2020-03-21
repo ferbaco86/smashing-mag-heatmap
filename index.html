@@ -8,39 +8,39 @@
   <title>Smashing Magazine Heatmap</title>
 </head>
 <body>
-  <header class="header font-mija">
-    <nav>
+  <header class="header font-mija grid-display items-align-center">
+    <nav class="flex-display items-align-center">
       <div class="logo-placeholder"></div>
       <a href="#">Articles</a>
       <a href="#">Books</a>
       <a href="#">Events</a>
       <a href="#">Jobs</a>
       <a href="#">Membership</a>
-      <button class="topics-btn font-mija">Topics</button>
+      <button class="topics-btn font-mija border-radius-10">Topics</button>
     </nav>
   </header>
 
-<main>
-  <section class="dont-miss-container font-mija">
-    <div class="latest-article latest-article-1">
+<main class="flex-display direction-column">
+  <section class="dont-miss-container grid-display font-mija">
+    <div class="latest-article flex-display items-align-center latest-article-1">
       <h2 class="latest-article-title">How Should Designers Learn To Code? 
       The Terminal And Text Editors (Part 1)</h2>
     </div>
-    <h4 class="center-text">
+    <h4 class="center-text align-center-text">
     <span>Don’t Miss These Latest <br/> Articles</span>
     </h4>
-    <div class="latest-article latest-article-2">
+    <div class="latest-article flex-display items-align-center latest-article-2">
       <h2 class="latest-article-title">How Indigo.Design Usability Testing Takes The Guesswork Out Of Web Design</h2>
     </div>
-    <div class="latest-article latest-article-3">
+    <div class="latest-article flex-display items-align-center latest-article-3">
       <h2 class="latest-article-title">Implementing Infinite Scroll And Image Lazy Loading In React</h2>
     </div>
-    <div class="latest-article latest-article-4">
+    <div class="latest-article flex-display items-align-center latest-article-4">
       <h2 class="latest-article-title">How Should Designers Learn To Code? 
         The Terminal And Text Editors (Part 1)</h2>
     </div>
   </section>
-  <section class="articles-container">
+  <div class="articles-container grid-display">
       <article class="first-articles">
         <h3 class="font-mija">Rescheduling SmashingConf SF And Looking Out For Each Other</h3>
         <span class="by font-mija">by<a href="#" class="author-link font-mija">Rachel Andrew</a></span>
@@ -59,17 +59,17 @@
         <p class="font-merriweather articles-text">We are sad to have to reschedule SmashingConf SF, however we are working to find ways to be with our 
           community virtually until we can all meet up again.</p>
       </article>
-      <div class="promo">
+      <div class="promo border-radius-10">
         <h3>SQUARESPACE</h3>
         <h4>squarespace</h4>
         <p class="font-merriweather">Get a domain and create a website with Squarespace</p>
       </div>
-        <div class="subscribe">
+        <div class="subscribe border-radius-10 align-center-text items-align-center flex-display direction-column">
           <div class = "subscribe-pic-placeholder"></div>
           <h2 class="font-mija subscribe-title">1,651 smashing members</h2>
           <p class="font-merriweather">A friendly community that keeps this website alive. 
             With books, webinars, discounts and networking — for just 1 coffee a month.</p>
-          <button class="font-btn">Explore features -></button>
+          <button class="font-btn border-radius-10">Explore features -></button>
         </div>
         <article>
           <h3 class="font-mija">Rescheduling SmashingConf SF And Looking Out For Each Other</h3>
@@ -95,28 +95,28 @@
       <p class="font-merriweather articles-text">We are sad to have to reschedule SmashingConf SF, however we are working to find ways to be with our 
         community virtually until we can all meet up again.</p>
     </article>
-  </section>
-  <section class="smashing-tv">
+  </div>
+  <section class="smashing-tv border-radius-10 flex-display items-align-center direction-column">
     <div class="tv-pic-container"></div>
     <h1 class="font-mija tv-title">New on Smashing Tv</h1>
-    <p class="font-merriweather tv-text">A channel where seasoned developers show how they design, build, work and play. Coming up next: 
+    <p class="font-merriweather tv-text align-center-text">A channel where seasoned developers show how they design, build, work and play. Coming up next: 
       Building A Modern Electron App With React Hooks</p>
-    <button class="tv-btn font-btn">See all upcoming episodes -></button>
+    <button class="tv-btn border-radius-10 font-btn">See all upcoming episodes -></button>
   </section>
-  <a href="#" class="more-articles">SEE ALL LATEST ARTICLES -></a>
-  <section class="book-promo">
-    <span class="shipping-date">March 2020 • Shipping now</span>
+  <a href="#" class="more-articles font-weight-300 flex-display">SEE ALL LATEST ARTICLES -></a>
+  <section class="book-promo flex-display direction-column align-center-text items-align-center">
+    <span class="shipping-date font-weight-300">March 2020 • Shipping now</span>
     <h2 class="book-promo-title font-mija">Ethical Design Handbook:
     <br/>
     Leaving Dark Patterns Behind.
   </h2>
-  <p class="book-promo-text font-merriweather"><strong>With practical techniques &amp; strategies</strong>
+  <p class="book-promo-text font-merriweather font-weight-300"><strong>With practical techniques &amp; strategies</strong>
     to make honest design work for digital products. 
     Help your business grow sustainably — without dark patterns — and comply with GDPR and CCPA.</p>
-    <button class="book-promo-btn font-btn">Learn more about the book -></button>
+    <button class="book-promo-btn border-radius-10 font-btn">Learn more about the book -></button>
     <div class="book-promo-img-placeholder"></div>
   </section>
-  <section class="person-of-the-week">
+  <div class="person-of-the-week flex-display">
     <div class="photo-placeholder"></div>
     <article>
       <h4 class="font-merriweather">PERSON OF THE WEEK</h4>
@@ -128,14 +128,14 @@
       passionate about increasing inclusivity in tech, designing responsibly, and leading with empathy. 
       Thank you for everything you do for the community, dear Yesenia!</p>
     </article>
-  </section>
-  <section class="community-links-container">
+  </div>
+  <div class="community-links-container grid-display">
     <article class="community-links-article">
-      <div class="title-pic-container">
+      <div class="title-pic-container flex-display">
         <div class="community-pic-placeholder"></div>
         <div class="title-container">
           <span class="community-author font-mija">Present & Correct wrote:</span>
-          <h1 class="community-title font-mija"> Print Design Inspiration</h1>
+          <h2 class="community-title font-mija"> Print Design Inspiration</h2>
         </div>
       </div>
       <p class="font-merriweather"><time datetime="2020-03-18">March 18, 2020 —</time>
@@ -146,11 +146,11 @@
       </p>
     </article>
     <article class="community-links-article">
-      <div class="title-pic-container">
+      <div class="title-pic-container flex-display">
         <div class="community-pic-placeholder"></div>
         <div class="title-container">
           <span class="community-author font-mija">Present & Correct wrote:</span>
-          <h1 class="community-title font-mija">Print Design Inspiration</h1>
+          <h2 class="community-title font-mija">Print Design Inspiration</h2>
         </div>
       </div>
       <p class="font-merriweather"><time datetime="2020-03-18">March 18, 2020 —</time>
@@ -161,11 +161,11 @@
       </p>
     </article>
     <article class="community-links-article">
-      <div class="title-pic-container">
+    <div class="title-pic-container flex-display">
         <div class="community-pic-placeholder"></div>
         <div class="title-container">
           <span class="community-author font-mija">Present & Correct wrote:</span>
-          <h1 class="community-title font-mija">Print Design Inspiration</h1>
+          <h2 class="community-title font-mija">Print Design Inspiration</h2>
         </div>
       </div>
       <p class="font-merriweather"><time datetime="2020-03-18">March 18, 2020 —</time>
@@ -176,11 +176,11 @@
       </p>
     </article>
     <article class="community-links-article">
-      <div class="title-pic-container">
+      <div class="title-pic-container flex-display">
         <div class="community-pic-placeholder"></div>
         <div class="title-container">
           <span class="community-author font-mija">Present & Correct wrote:</span>
-          <h1 class="community-title font-mija">Print Design Inspiration</h1>
+          <h2 class="community-title font-mija">Print Design Inspiration</h2>
         </div>
       </div>
       <p class="font-merriweather"><time datetime="2020-03-18">March 18, 2020 —</time>
@@ -191,11 +191,11 @@
       </p>
     </article>
     <article class="community-links-article">
-      <div class="title-pic-container">
+      <div class="title-pic-container flex-display">
         <div class="community-pic-placeholder"></div>
         <div class="title-container">
           <span class="community-author font-mija">Present & Correct wrote:</span>
-          <h1 class="community-title font-mija">Print Design Inspiration</h1>
+          <h2 class="community-title font-mija">Print Design Inspiration</h2>
         </div>
       </div>
       <p class="font-merriweather"><time datetime="2020-03-18">March 18, 2020 —</time>
@@ -206,11 +206,11 @@
       </p>
     </article>
     <article class="community-links-article">
-      <div class="title-pic-container">
+      <div class="title-pic-container flex-display">
         <div class="community-pic-placeholder"></div>
         <div class="title-container">
           <span class="community-author font-mija">Present & Correct wrote:</span>
-          <h1 class="community-title font-mija">Print Design Inspiration</h1>
+          <h2 class="community-title font-mija">Print Design Inspiration</h2>
         </div>
       </div>
       <p class="font-merriweather"><time datetime="2020-03-18">March 18, 2020 —</time>
@@ -220,23 +220,23 @@
         “Typographische Monatsblätter” and the Japanese “Industrial Art News” magazine.
       </p>
     </article>
-  </section>
-  <a href="#" class="more-articles">MORE LINKS ON TWITTER -></a>
-  <section class="featured-book">
-    <div class="featured-book-info">
+  </div>
+  <a href="#" class="more-articles flex-display font-weight-300">MORE LINKS ON TWITTER -></a>
+  <section class="featured-book grid-display">
+    <div class="featured-book-info flex-display direction-column">
       <span class="font-merriweather">FEATURED SMASHING BOOK</span>
       <h2 class="font-mija">Design Systems</h2>
       <p class="font-merriweather">Meet <strong>Design Systems</strong>, 
         a recent Smashing book in which Alla Kholmatova explores how to set up an
         <strong>effective design system</strong>
         to create great digital products. With common traps, gotchas and lessons learned.</p>
-        <button class="font-btn featured-book-btn">Table of Contents</button>
+        <button class="font-btn border-radius-10 featured-book-btn">Table of Contents</button>
     </div>
     <div class="featured-book-pic-placeholder">
 
     </div>
   </section>
-  <section class="curated-post-container">
+  <section class="curated-post-container grid-display">
     <div class="guide-container">
       <small>GUIDES</small>
       <h2 class="font-mija guide-title">New Front-End Challenges To Master</h2>
@@ -293,20 +293,20 @@
         <li>Vue Components</li>
       </ul>
     </div>
-    <div class="newsletter-container">
+    <div class="newsletter-container border-radius-10 flex-display direction-column items-align-center">
       <h2 class="newsletter-title font-mija">Smashing Newsletter</h2>
       <p class="font-merriweather">Imagine you wrote a beautiful song and nobody discovered it.</p>
       <div class="newsletter-pic-placeholder"></div>
-      <input class="email" type="email">
+      <input class="email border-radius-10" type="email">
       <small>Useful tips for web designers. Sent 2× a month.<br>You can unsubscribe any time — <em>obviously</em>.</small>
     </div>
-    <a href="#" class="see-all-articles"> SEE ALL ARTICLES -></a>
+    <a href="#" class="see-all-articles font-weight-300 flex-display"> SEE ALL ARTICLES -></a>
   </section>
   
 </main>
-<footer class="footer">
-  <h4 class="footer-title">Browse All Smashing Magazine Topics</h4>
-  <ul class="topic-list">
+<footer class="footer flex-display direction-column items-align-center">
+  <h4 class="footer-title font-weight-300">Browse All Smashing Magazine Topics</h4>
+  <ul class="topic-list font-weight-300 align-center-text">
     <li class="topic-item">Accesibility</li>
     <li class="topic-item">Android</li>
     <li class="topic-item">Animation</li>
@@ -341,19 +341,19 @@
     <li class="topic-item">WordPress</li>
     <li class="topic-item">Workflow</li>
   </ul>
-  <div class="credits">
+  <div class="credits font-weight-300 align-center-text">
     <p><em>With a commitment to quality content for the design community.</em></p>
     <p>Founded by Vitaly Friedman and Sven Lennartz. 2006–2020</p>
     <p>Smashing is proudly running on Netlify</p>
     <p>Fonts by Latinotype</p>
   </div>
-  <ul class="footer-links">
+  <ul class="footer-links font-weight-300">
     <li class="topic-item">Write for us</li>
     <li class="topic-item">Contact us</li>
     <li class="topic-item">About us (Impressum)</li>
     <li class="topic-item">Privacy Policy</li>
   </ul>
-  <ul class="footer-links-2">
+  <ul class="footer-links-2 font-weight-300">
     <li class="topic-item">Membership Login</li>
     <li class="topic-item">Delivery times</li>
     <li class="topic-item">Advertise</li>
