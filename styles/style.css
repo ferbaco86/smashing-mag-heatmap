@@ -1,0 +1,498 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "MijaW03-Regular";
+  src: url("//db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot");
+  src:
+    url("//db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/4fb2accf874593635afa99c122467fd6.svg#MijaW03-Regular") format("svg");
+}
+
+.flex-display {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.items-align-center {
+  align-items: center;
+}
+
+.grid-display {
+  display: grid;
+}
+
+.align-center-text {
+  text-align: center;
+}
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.font-mija {
+  font-family: "MijaW03-Regular", sans-serif;
+  font-weight: 700;
+}
+
+.font-merriweather {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+.font-btn {
+  font-family: "MijaW03-Regular", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: grey;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.header {
+  height: 20vh;
+  background-color: rgb(163, 158, 158);
+  font-size: 1.5rem;
+}
+
+nav {
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-placeholder {
+  width: 200px;
+  height: 60px;
+  background-color: grey;
+}
+
+.topics-btn {
+  border: 3px solid white;
+  color: white;
+  background-color: rgb(163, 158, 158);
+  width: 10vw;
+  height: 5vh;
+  font-size: 1.2rem;
+}
+
+.center-text {
+  position: absolute;
+  background-color: white;
+  left: 32%;
+  top: 25%;
+  padding: 10px;
+  font-size: 2.5rem;
+}
+
+.dont-miss-container {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.latest-article {
+  height: 80vh;
+  font-size: 1.8rem;
+}
+
+.latest-article-title {
+  padding-left: 50px;
+  width: 40vw;
+  color: white;
+}
+
+.latest-article-1 {
+  background-color: rgb(131, 124, 124);
+}
+
+.latest-article-3 {
+  background-color: rgb(112, 106, 106);
+}
+
+.latest-article-2 {
+  background-color: rgb(155, 150, 150);
+}
+
+.latest-article-4 {
+  background-color: rgb(138, 131, 131);
+}
+
+.articles-container {
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: lightgray;
+}
+
+.first-articles {
+  margin-top: 50px;
+}
+
+.final-articles {
+  margin-top: 40px;
+}
+
+.by {
+  padding-left: 30px;
+  font-size: 0.9rem;
+}
+
+.author-link {
+  padding-left: 5px;
+  color: gray;
+}
+
+.articles-container h3 {
+  font-size: 1.7rem;
+  text-decoration: underline;
+}
+
+.articles-container h2,
+.articles-container h3,
+.articles-container h4,
+.articles-container p {
+  padding: 30px;
+}
+
+.articles-text {
+  margin-bottom: 90px;
+}
+
+.promo {
+  background-color: white;
+  border: 1px solid gray;
+  height: 50vh;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.subscribe {
+  justify-content: space-evenly;
+  background-color: rgb(90, 90, 90);
+  color: white;
+  height: 92vh;
+  width: 33vw;
+}
+
+.subscribe-title {
+  font-size: 3rem;
+}
+
+.subscribe-pic-placeholder {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+}
+
+.subscribe button {
+  width: 13vw;
+  height: 7vh;
+}
+
+.smashing-tv {
+  justify-content: space-evenly;
+  background-color: rgb(90, 90, 90);
+  color: white;
+  margin-left: 2.5%;
+  width: 95%;
+  height: 80vh;
+  margin-top: 50px;
+}
+
+.tv-title {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.tv-text {
+  font-size: 1rem;
+  width: 37vw;
+}
+
+.tv-pic-container {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-color: grey;
+}
+
+.tv-btn {
+  width: 20vw;
+  height: 7vh;
+}
+
+.more-articles {
+  justify-content: center;
+  margin: 100px;
+  font-family: "Merriweather", serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: grey;
+}
+
+.shipping-date {
+  font-family: 'Merriweather', serif;
+  font-size: 0.9rem;
+}
+
+.book-promo {
+  justify-content: space-evenly;
+  background-color: rgb(90, 90, 90);
+  color: white;
+  height: 130vh;
+}
+
+.book-promo > span {
+  padding: 30px 0 30px 0;
+}
+
+.book-promo-title {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+.book-promo-text {
+  width: 45vw;
+  font-size: 1.2rem;
+}
+
+.book-promo-img-placeholder {
+  width: 800px;
+  height: 500px;
+  background-color: gray;
+  margin: 30px;
+}
+
+.book-promo-btn {
+  width: 25vw;
+  height: 8vh;
+}
+
+.person-of-the-week {
+  justify-content: space-around;
+}
+
+.person-of-the-week p {
+  width: 72vw;
+}
+
+.person-of-the-week h4 {
+  padding: 30px 0 30px;
+}
+
+.photo-placeholder {
+  margin-top: 30px;
+  margin-right: -160px;
+  margin-left: -60px;
+  width: 200px;
+  height: 260px;
+  background-color: gray;
+}
+
+.community-links-container {
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-top: 150px;
+}
+
+.title-pic-container {
+  justify-content: baseline;
+}
+
+.community-pic-placeholder {
+  margin-left: 53px;
+  width: 70px;
+  height: 70px;
+  background-color: gray;
+}
+
+.community-links-article {
+  display: flex;
+  flex-direction: column;
+}
+
+.community-links-article p {
+  width: 35vw;
+  margin-left: 150px;
+  font-size: 1rem;
+  padding-bottom: 100px;
+}
+
+.community-links-article span,
+.community-links-article h2 {
+  margin-left: 25px;
+}
+
+.community-author {
+  font-size: 1.2rem;
+}
+
+.community-title {
+  font-size: 2rem;
+}
+
+.featured-book {
+  grid-template-columns: 2fr 1fr;
+  background-color: rgb(90, 90, 90);
+  position: relative;
+  height: 50vh;
+  color: white;
+}
+
+.featured-book-info {
+  margin-top: 50px;
+  margin-left: 50px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.featured-book-info h2 {
+  margin: 10px 0 30px 0;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.featured-book-info p {
+  margin-bottom: 20px;
+}
+
+.featured-book-btn {
+  width: 17vw;
+  height: 7vh;
+}
+
+.featured-book-pic-placeholder {
+  position: absolute;
+  left: 70vw;
+  bottom: 10vh;
+  height: 350px;
+  width: 300px;
+  background-color: gray;
+}
+
+.curated-post-container {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  gap: 60px;
+  justify-items: left;
+  background-color: lightgray;
+}
+
+.guide-container {
+  margin-left: 50px;
+}
+
+.guide-container-2 {
+  margin-left: 25px;
+}
+
+.curated-post-container div {
+  margin-top: 30px;
+}
+
+.guide-title {
+  padding: 10px 0 30px 0;
+  font-size: 1.7rem;
+}
+
+.curated-post-container ul {
+  margin-left: 50px;
+}
+
+.curated-post-container li {
+  padding: 5px;
+}
+
+.curated-post-container small {
+  font-family: "Merriweather", serif;
+}
+
+.newsletter-container {
+  justify-content: space-around;
+  background-color: rgb(90, 90, 90);
+  color: white;
+  width: 800px;
+  height: 800px;
+  grid-column: span 2;
+  justify-self: start;
+}
+
+.newsletter-title {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.newsletter-pic-placeholder {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  background-color: gray;
+}
+
+.email {
+  width: 20vw;
+  height: 7vh;
+}
+
+.see-all-articles {
+  justify-self: center;
+  grid-column: span 3;
+  margin-bottom: 100px;
+  font-family: "Merriweather", serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: grey;
+}
+
+.footer {
+  background-color: rgb(90, 90, 90);
+  height: 85vh;
+  width: auto;
+  justify-content: space-evenly;
+  font-family: "Merriweather", serif;
+  color: white;
+}
+
+.footer-title {
+  text-transform: uppercase;
+}
+
+.topic-list {
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+.topic-item {
+  display: inline-block;
+  padding: 5px;
+}
+
+.credits {
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  font-size: 1rem;
+}
+
+.footer-links-2 {
+  margin-top: -80px;
+  font-size: 1rem;
+}
